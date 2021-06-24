@@ -39,10 +39,13 @@ public class Study {
         calendar.add(Calendar.YEAR, 1);
         calendar.add(Calendar.MONTH, 2);
         calendar.add(Calendar.DATE, 15);
+        int year = calendar.get(Calendar.YEAR);
+        int month = calendar.get(Calendar.MONTH) + 1;
+        int date = calendar.get(Calendar.DATE);
         
-        System.out.println(calendar.get(Calendar.YEAR));
-        System.out.println(calendar.get(Calendar.MONTH) + 1);
-        System.out.println(calendar.get(Calendar.DATE));
+        System.out.println(year);
+        System.out.println(month);
+        System.out.println(date);
         
 
         // うるう年判定
