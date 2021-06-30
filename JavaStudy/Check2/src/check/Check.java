@@ -3,18 +3,33 @@ package check;
 import constants.Constants;
 
 public class Check {
-	private String firstName = "知真";
-	private String lastName = "宮嵜";
-	
-	private void printName() {
-		System.out.println(lastName + firstName);
+	private static String firstName = "宮嵜";
+	private static String lastName = "知真";
+
+
+	public static String getFirstName() {
+		return firstName;
+	}
+
+	public static void setFirstName(String firstName) {
+		Check.firstName = firstName;
+	}
+
+	public static String getLastName() {
+		return lastName;
+	}
+
+	public static void setLastName(String lastName) {
+		Check.lastName = lastName;
+	}
+
+	private static void printName(String first,String last) {
+		System.out.println(first + last);
 	}
 	
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		Check pn = new Check();
-			System.out.println("printNameメソッド → ");
-			pn.printName();
+		System.out.print("printNameメソッド → ");
+			printName(firstName,lastName);
 		
 		Pet ip = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
 			ip.introduce();
@@ -22,5 +37,7 @@ public class Check {
 		RobotPet ir = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
 			ir.introduce();
 	}
+
+
 
 }
