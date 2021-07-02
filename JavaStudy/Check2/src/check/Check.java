@@ -6,25 +6,8 @@ public class Check {
 	private static String firstName = "宮嵜";
 	private static String lastName = "知真";
 
-
-	public static String getFirstName() {
-		return firstName;
-	}
-
-	public static void setFirstName(String firstName) {
-		Check.firstName = firstName;
-	}
-
-	public static String getLastName() {
-		return lastName;
-	}
-
-	public static void setLastName(String lastName) {
-		Check.lastName = lastName;
-	}
-
-	private static void printName(String first,String last) {
-		System.out.println(first + last);
+	private static void printName(String firstName,String lastName) {
+		System.out.println(firstName + lastName);
 	}
 	
 	public static void main(String[] args) {
