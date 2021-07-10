@@ -1,0 +1,42 @@
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+    }
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .header-part {
+        top: 20px;
+       right: 70px;
+    }
+    .header-part1 {
+        float: none;
+    }
+    .header-part2 {
+        float: none;
+        border: 10px solid white;
+        border-top: transparent;
+        border-bottom: transparent;
+    }
+    .header-part3 {
+        float: none;
+    }
+    .left {
+        float: none;
+        width: 200px;
+        height: 100px;
+    }
+    .right {
+        float: none;
+        width: 200px;
+        height: 210px;
+    }
+    .right-part {
+        top: 20px;
+        left: 30px;
+    }
+    .footer {
+        width: 200px;
+    }
+}
