@@ -9,15 +9,17 @@
 </head>
 <body>
 <%@ include file ="header.jsp" %>
-<div class=form>
-<form action="#" method="post">
-<p>name 
-<input type="text" name="name">
-</p>
-<p>id
-<input type="text" name="id">
-</p>
-</form>
+<div class="form">
+	<form action="#" method="post">
+		<div>
+			<label for = name>name</label>
+			<input type="text" name="name">
+		</div>
+		<div>
+			<label for = id>id</label>
+			<input type="text" name="id">
+		</div>
+	</form>
 </div>
 <%@ include file ="footer.jsp" %>
 
