@@ -61,7 +61,7 @@ public class ExException {
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    nullTriger();
+                    trigerNull();
                         
                                 
                     break;
@@ -99,20 +99,21 @@ public class ExException {
         // 終了処理
         sc.close();
         System.out.println("お疲れ様でした！");
-    }
+    };
 
     /**
      * 問①: 以下のルールに沿ってNullPointerExceptionを投げるメソッドを実装しなさい。
      * ルール1: private static void 任意のメソッド名 throws 上位へ投げるExceptionクラス名 { NullPointerExceptionを発生させる処理 }
      * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
      */
-    private static void nullTriger throws NullPointerException { 
+    private static void trigerNull() throws NullPointerException { 
         try{
-            System.out.println(null.length);
+            String a = null;
+            System.out.println(a.toString());
         } catch(NullPointerException e) {
             printException(e);
             System.out.println(CONST_MSG_NULLPO);
-        }
+        };
         };
     /**
      * 例外処理のメッセージを出力
