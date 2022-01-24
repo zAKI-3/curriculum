@@ -258,6 +258,14 @@
             <param-value>false</param-value>
         </init-param>
         <load-on-startup>3</load-on-startup>
+        <init-param>
+            <param-name>compilerSourceVM</param-name>
+            <param-value>1.8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>compilerTargetVM</param-name>
+            <param-value>1.8</param-value>
+        </init-param>
     </servlet>
 
 
