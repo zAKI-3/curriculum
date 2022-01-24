@@ -61,7 +61,7 @@ public abstract class BaseService {
 
             // FIXME Step-5-2: DBへ接続するための初期設定（引数すべてに記述すること）
             this.connection = DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5432/lesson_db?useUnicode=true&characterEncoding=utf8",
+                    "jdbc:postgresql://localhost:5432/Employee?useUnicode=true&characterEncoding=utf8",
                     "postgres",
                     "postgres");
 
