@@ -196,7 +196,7 @@ public final class EmployeeManagementController extends BaseServlet {
     private RequestType getRequestType(final HttpServletRequest request) throws MVCException {
         Logger.logStart(new Throwable());
 
-        final String requestTypeName = request.getParameter(CONST_ELEMENT_NAME_REQUEST);
+        final String requestTypeName = request.getParameter("requestType");
         Logger.log(new Throwable(), "requestTypeName = " + requestTypeName);
 
         RequestType requestType = null;
