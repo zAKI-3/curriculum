@@ -1,60 +1,78 @@
-情報: Server version:        Apache Tomcat/8.0.53 [火 4月 19 20:12:54 JST 2022]
-情報: Server built:          Jun 29 2018 14:42:45 UTC [火 4月 19 20:12:54 JST 2022]
-情報: Server number:         8.0.53.0 [火 4月 19 20:12:54 JST 2022]
-情報: OS Name:               Mac OS X [火 4月 19 20:12:54 JST 2022]
-情報: OS Version:            11.2 [火 4月 19 20:12:54 JST 2022]
-情報: Architecture:          x86_64 [火 4月 19 20:12:54 JST 2022]
-情報: Java Home:             /Applications/Eclipse_2021-06.app/Contents/java/16/Home [火 4月 19 20:12:54 JST 2022]
-情報: JVM Version:           16.0.1+9 [火 4月 19 20:12:54 JST 2022]
-情報: JVM Vendor:            AdoptOpenJDK [火 4月 19 20:12:54 JST 2022]
-情報: CATALINA_BASE:         /Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 4月 19 20:12:54 JST 2022]
-情報: CATALINA_HOME:         /Users/zakimiya/LetsEngineer/curriculum/JavaStudy/apache-tomcat-8.0.53 [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: -Dcatalina.base=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: -Dcatalina.home=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/apache-tomcat-8.0.53 [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: -Dwtp.deploy=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: -Dfile.encoding=UTF-8 [火 4月 19 20:12:54 JST 2022]
-情報: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages [火 4月 19 20:12:54 JST 2022]
-情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zakimiya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. [火 4月 19 20:12:54 JST 2022]
-情報: Initializing ProtocolHandler ["http-nio-8080"] [火 4月 19 20:12:55 JST 2022]
-情報: Using a shared selector for servlet write/read [火 4月 19 20:12:55 JST 2022]
-情報: Initializing ProtocolHandler ["ajp-nio-8009"] [火 4月 19 20:12:55 JST 2022]
-重大: Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"] [火 4月 19 20:12:55 JST 2022]
-重大: Failed to initialize connector [Connector[AJP/1.3-8009]] [火 4月 19 20:12:55 JST 2022]
-情報: Initialization processed in 908 ms [火 4月 19 20:12:55 JST 2022]
-情報: サービス Catalina を起動します [火 4月 19 20:12:55 JST 2022]
-情報: Starting Servlet Engine: Apache Tomcat/8.0.53 [火 4月 19 20:12:55 JST 2022]
-情報: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. [火 4月 19 20:12:55 JST 2022]
-情報: Starting ProtocolHandler ["http-nio-8080"] [火 4月 19 20:12:55 JST 2022]
-情報: Server startup in 884 ms [火 4月 19 20:12:55 JST 2022]
-[MEMORY:40162280][2022/04/19 08:12:56.578] [org.apache.jsp.login_jsp] [_jspService] [154] セッションなし
-[MEMORY:40162280][2022/04/19 08:12:59.535] [skillcheck.controller.BaseServlet] [<init>] [55] START
-[MEMORY:40162280][2022/04/19 08:12:59.544] [skillcheck.controller.BaseServlet] [<init>] [59] END
-[MEMORY:40162280][2022/04/19 08:12:59.554] [skillcheck.controller.EmployeeManagementController] [doPost] [100] START
-[MEMORY:40162280][2022/04/19 08:12:59.560] [skillcheck.controller.EmployeeManagementController] [getRequestType] [197] START
-[MEMORY:40162280][2022/04/19 08:12:59.563] [skillcheck.controller.EmployeeManagementController] [getRequestType] [200] requestTypeName = login
-[MEMORY:40162280][2022/04/19 08:12:59.564] [skillcheck.controller.EmployeeManagementController] [getRequestType] [219] this.responseBean = skillcheck.bean.ResponseBean@3416e2f8
-[MEMORY:40162280][2022/04/19 08:12:59.564] [skillcheck.controller.EmployeeManagementController] [getRequestType] [229] END
-[MEMORY:40162280][2022/04/19 08:12:59.564] [skillcheck.controller.EmployeeManagementController] [doPost] [128] RequestType = LOGIN
-[MEMORY:40162280][2022/04/19 08:12:59.565] [skillcheck.service.BaseService] [<init>] [39] START
-[MEMORY:40162280][2022/04/19 08:12:59.566] [skillcheck.service.BaseService] [<init>] [46] END
-[MEMORY:40162280][2022/04/19 08:12:59.567] [skillcheck.controller.EmployeeManagementController] [lambda$1] [145] reqEmpId = empId
-[MEMORY:40162280][2022/04/19 08:12:59.567] [skillcheck.controller.EmployeeManagementController] [doPost] [150] --- ログイン ---
-[MEMORY:40162280][2022/04/19 08:12:59.568] [skillcheck.controller.BaseServlet] [validateLogin] [136] START
-[MEMORY:40162280][2022/04/19 08:12:59.572] [skillcheck.service.BaseService] [<init>] [39] START
-[MEMORY:40162280][2022/04/19 08:12:59.572] [skillcheck.service.BaseService] [<init>] [46] END
-[MEMORY:40162280][2022/04/19 08:12:59.573] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [51] START
-[MEMORY:40162280][2022/04/19 08:12:59.573] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] START
-[MEMORY:40162280][2022/04/19 08:12:59.574] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] ExecuteCase = FIND_BY_EMPID
-[MEMORY:40162280][2022/04/19 08:12:59.575] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqStatus  = 0
-[MEMORY:40162280][2022/04/19 08:12:59.576] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [119] reqMessage = 
-[MEMORY:40162280][2022/04/19 08:12:59.578] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
-[MEMORY:40162280][2022/04/19 08:12:59.578] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
-[MEMORY:40162280][2022/04/19 08:12:59.580] [skillcheck.controller.EmployeeManagementController] [doPost] [165] reqStatus  = 0
-[MEMORY:40162280][2022/04/19 08:12:59.581] [skillcheck.controller.EmployeeManagementController] [doPost] [166] reqMessage = null
-[MEMORY:40162280][2022/04/19 08:12:59.582] [skillcheck.controller.EmployeeManagementController] [doPost] [173] 遷移先 = null
-重大: サーブレット employee のServlet.service()が例外を投げました [火 4月 19 20:12:59 JST 2022]
+情報: Server version:        Apache Tomcat/8.0.53 [火 5月 17 23:04:49 JST 2022]
+情報: Server built:          Jun 29 2018 14:42:45 UTC [火 5月 17 23:04:49 JST 2022]
+情報: Server number:         8.0.53.0 [火 5月 17 23:04:49 JST 2022]
+情報: OS Name:               Mac OS X [火 5月 17 23:04:49 JST 2022]
+情報: OS Version:            11.3 [火 5月 17 23:04:49 JST 2022]
+情報: Architecture:          x86_64 [火 5月 17 23:04:49 JST 2022]
+情報: Java Home:             /Applications/Eclipse_2021-06.app/Contents/java/16/Home [火 5月 17 23:04:49 JST 2022]
+情報: JVM Version:           16.0.1+9 [火 5月 17 23:04:49 JST 2022]
+情報: JVM Vendor:            AdoptOpenJDK [火 5月 17 23:04:49 JST 2022]
+情報: CATALINA_BASE:         /Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 5月 17 23:04:49 JST 2022]
+情報: CATALINA_HOME:         /Users/zakimiya/LetsEngineer/curriculum/JavaStudy/apache-tomcat-8.0.53 [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: -Dcatalina.base=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: -Dcatalina.home=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/apache-tomcat-8.0.53 [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: -Dwtp.deploy=/Users/zakimiya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: -Dfile.encoding=UTF-8 [火 5月 17 23:04:49 JST 2022]
+情報: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages [火 5月 17 23:04:49 JST 2022]
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zakimiya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. [火 5月 17 23:04:49 JST 2022]
+情報: Initializing ProtocolHandler ["http-nio-8080"] [火 5月 17 23:04:49 JST 2022]
+情報: Using a shared selector for servlet write/read [火 5月 17 23:04:49 JST 2022]
+情報: Initializing ProtocolHandler ["ajp-nio-8009"] [火 5月 17 23:04:49 JST 2022]
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"] [火 5月 17 23:04:49 JST 2022]
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]] [火 5月 17 23:04:49 JST 2022]
+情報: Initialization processed in 850 ms [火 5月 17 23:04:49 JST 2022]
+情報: サービス Catalina を起動します [火 5月 17 23:04:49 JST 2022]
+情報: Starting Servlet Engine: Apache Tomcat/8.0.53 [火 5月 17 23:04:49 JST 2022]
+情報: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. [火 5月 17 23:04:50 JST 2022]
+情報: Starting ProtocolHandler ["http-nio-8080"] [火 5月 17 23:04:50 JST 2022]
+情報: Server startup in 808 ms [火 5月 17 23:04:50 JST 2022]
+[MEMORY:38962768][2022/05/17 11:04:57.126] [skillcheck.controller.BaseServlet] [<init>] [55] START
+[MEMORY:38962768][2022/05/17 11:04:57.129] [skillcheck.controller.BaseServlet] [<init>] [59] END
+[MEMORY:38962768][2022/05/17 11:04:57.137] [skillcheck.controller.EmployeeManagementController] [doPost] [100] START
+[MEMORY:38962768][2022/05/17 11:04:57.141] [skillcheck.controller.EmployeeManagementController] [getRequestType] [197] START
+[MEMORY:38962768][2022/05/17 11:04:57.142] [skillcheck.controller.EmployeeManagementController] [getRequestType] [200] requestTypeName = login
+[MEMORY:38962768][2022/05/17 11:04:57.142] [skillcheck.controller.EmployeeManagementController] [getRequestType] [219] this.responseBean = skillcheck.bean.ResponseBean@455c9ea9
+[MEMORY:38962768][2022/05/17 11:04:57.143] [skillcheck.controller.EmployeeManagementController] [getRequestType] [229] END
+[MEMORY:38962768][2022/05/17 11:04:57.143] [skillcheck.controller.EmployeeManagementController] [doPost] [128] RequestType = LOGIN
+[MEMORY:38962768][2022/05/17 11:04:57.144] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:38962768][2022/05/17 11:04:57.144] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:38962768][2022/05/17 11:04:57.145] [skillcheck.controller.EmployeeManagementController] [lambda$1] [145] reqEmpId = 00009
+[MEMORY:38962768][2022/05/17 11:04:57.145] [skillcheck.controller.EmployeeManagementController] [doPost] [150] --- ログイン ---
+[MEMORY:38962768][2022/05/17 11:04:57.145] [skillcheck.controller.BaseServlet] [validateLogin] [136] START
+[MEMORY:38962768][2022/05/17 11:04:57.147] [skillcheck.service.BaseService] [<init>] [39] START
+[MEMORY:38962768][2022/05/17 11:04:57.148] [skillcheck.service.BaseService] [<init>] [46] END
+[MEMORY:39319304][2022/05/17 11:04:57.148] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [51] START
+[MEMORY:39319304][2022/05/17 11:04:57.149] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] START
+[MEMORY:39319304][2022/05/17 11:04:57.150] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] ExecuteCase = FIND_BY_EMPID
+[MEMORY:39319304][2022/05/17 11:04:57.150] [skillcheck.service.BaseService] [executeGetConnection] [53] START
+[MEMORY:45605448][2022/05/17 11:04:57.412] [skillcheck.service.BaseService] [executeGetConnection] [80] END
+[MEMORY:45605448][2022/05/17 11:04:57.413] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [163] START
+[MEMORY:45605448][2022/05/17 11:04:57.413] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [194] pEmployeeBeanList[0].empId = 00009
+[MEMORY:46475536][2022/05/17 11:04:57.431] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [218] SQL: SELECT empid, password, name, mail, programinglanguage, comment FROM employee WHERE empId = '00009' AND deleteFlg = '0'
+[MEMORY:46475536][2022/05/17 11:04:57.431] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [237] END
+[MEMORY:46475536][2022/05/17 11:04:57.432] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [86] meta = org.postgresql.jdbc.PgResultSetMetaData@68489b3f
+[MEMORY:46475536][2022/05/17 11:04:57.433] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] empid: 00009
+[MEMORY:46475536][2022/05/17 11:04:57.433] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] password: 88d8580a7ea163777a19f779d77e4339d68c1c24f39f3fd90a4b1e64ff7620b8
+[MEMORY:46475536][2022/05/17 11:04:57.433] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] name: 宮嵜知真
+[MEMORY:46475536][2022/05/17 11:04:57.434] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] mail: k-miyazaki@cmind-co.jp
+[MEMORY:46475536][2022/05/17 11:04:57.434] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] programinglanguage: java
+[MEMORY:46475536][2022/05/17 11:04:57.434] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqStatus  = 0
+[MEMORY:46475536][2022/05/17 11:04:57.434] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [119] reqMessage = 
+[MEMORY:46475536][2022/05/17 11:04:57.436] [skillcheck.service.BaseService] [executeCloseSQL] [118] START
+[MEMORY:46475536][2022/05/17 11:04:57.441] [skillcheck.service.BaseService] [executeCloseSQL] [129] END
+[MEMORY:46475536][2022/05/17 11:04:57.443] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [149] END
+[MEMORY:46475536][2022/05/17 11:04:57.443] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [55] END
+[MEMORY:46989520][2022/05/17 11:04:57.481] [skillcheck.util.PasswordHashUtil] [getSafetyPassword] [63] HASHED: 4f13a713277cb88bc9d7d3aa48e717ea36711c5ea163edf26d165425832709f7
+[MEMORY:46989520][2022/05/17 11:04:57.483] [skillcheck.controller.BaseServlet] [validateLogin] [192] isLoginError = true
+[MEMORY:46989520][2022/05/17 11:04:57.483] [skillcheck.controller.BaseServlet] [validateLogin] [194] END
+[MEMORY:46989520][2022/05/17 11:04:57.483] [skillcheck.controller.EmployeeManagementController] [doPost] [165] reqStatus  = 0
+[MEMORY:46989520][2022/05/17 11:04:57.484] [skillcheck.controller.EmployeeManagementController] [doPost] [166] reqMessage = パスワードに誤りがあります。
+[MEMORY:46989520][2022/05/17 11:04:57.484] [skillcheck.controller.EmployeeManagementController] [doPost] [173] 遷移先 = null
+[MEMORY:46989520][2022/05/17 11:04:57.484] [skillcheck.controller.EmployeeManagementController] [doPost] [186] END
+[MEMORY:48245984][2022/05/17 11:04:57.519] [org.apache.jsp.login_jsp] [_jspService] [160] セッションあり
+[MEMORY:48245984][2022/05/17 11:04:57.520] [org.apache.jsp.login_jsp] [_jspService] [181] message = パスワードに誤りがあります。
