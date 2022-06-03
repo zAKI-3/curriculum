@@ -186,10 +186,10 @@ public final class EmployeeManagementService extends BaseService implements Empl
                 // Tips1: ループ文を使用すること（正解は複数パターンあります）
                 // Tips2: 格納先はローカル変数のempとすること
                 // [ここへ記述]
-                for(EmployeeBean emp1:pEmployeeBeanList) {
-                    emp=emp1;
-                }
-
+                for (int i = 0; i < pEmployeeBeanList.size(); i++) {
+                    pEmployeeBeanList.get(i);
+                  }
+                
                 if (Objects.nonNull(emp)) {
                     Logger.log(new Throwable(), "pEmployeeBeanList[0].empId = " + emp.getEmpId());
 
